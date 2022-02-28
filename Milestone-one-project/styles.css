@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div {
+    height: 725px;
+    width: 1500px;
+    background-color: gray;
+}
+
+body {
+    height: 725px;
+    width: 1500px;
+}
+
+
+    
