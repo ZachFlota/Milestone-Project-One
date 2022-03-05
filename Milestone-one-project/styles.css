@@ -5,14 +5,20 @@ main {
 }
 
 div {
-    height: 725px;
-    width: 1500px;
+    max-height: 725px;
+    max-width: 1500px;
     background-color: gray;
+    border-style: groove;
+    border-color: purple;
+    border-width: 6px; 
+    border-radius: 5px;
+
 }
 
+
 body {
-    height: 725px;
-    width: 1500px;
+    max-height: 725px;
+    max-width: 1500px;
 }
 
 

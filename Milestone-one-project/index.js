@@ -1,4 +1,5 @@
 //create Robot
-const playRobot = robot(700, 100)
+const playRobot = robot(700, 260);
 
-newImage(Assets/'bomb.png')
+window.setInterval(createBomb, 3000);
+

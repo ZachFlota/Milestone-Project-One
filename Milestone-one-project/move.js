@@ -1,5 +1,5 @@
 function move(element) {
-    element.style.position = 'fixed'
+    element.style.position = 'relative'
 
     function moveToCoordinates(left, bottom) {
         element.style.left = left + 'px'
