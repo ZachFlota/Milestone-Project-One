@@ -16,11 +16,11 @@ function move(element) {
         
         function moveCharacter(){ 
             if(direction === 'west'){
-                x-=3
+                x-=2
             }
             
             if(direction === 'east'){
-                x+=3
+                x+=2
             }
 
             element.style.left = x + 'px'

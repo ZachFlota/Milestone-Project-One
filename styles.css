@@ -4,7 +4,8 @@ main {
     justify-content: space-evenly;
 }
 
-div {
+#background {
+    position: fixed;
     max-height: 725px;
     max-width: 1500px;
     background-color: gray;
@@ -14,7 +15,18 @@ div {
     border-radius: 5px;
 
 }
-
+#scoreboard {
+    color: white;
+    
+    position: fixed;
+    width: 200px;
+    height: 80px;
+    border-style: groove;
+    border-color: purple;
+    border-width: 6px;
+    border-radius: 5px;
+     
+}
 
 body {
     max-height: 725px;

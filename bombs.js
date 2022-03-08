@@ -1,7 +1,9 @@
+let bomb = newImage('Assets/bomb.png')
+
 function createBomb() {
+   bomb.style.visibility="visible"
    let x = Math.floor(Math.random() * 1300) -50;
    let y = 860
-   bomb = newImage('Assets/bomb.png')
    bomb.style.zIndex = 1;
    bomb.style.left = x + 'px'
    bomb.style.position = 'fixed'
@@ -12,11 +14,10 @@ function createBomb() {
          y--;
          bomb.style.bottom = y + 'px';
       } 
-     
    }
-
-   setInterval(dropBomb, 1)
-
+   
+   setInterval(dropBomb, 5)
+   
 }
 
 
