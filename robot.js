@@ -1,7 +1,7 @@
 const robotChar = newImage('Assets/Robot_Character.png')
 
 function robot(x, y) {
-    
+    robotChar.style.visibility="visible"
     robotChar.style.zIndex = 1;
 
     function handleDirectionChange(direction) {
