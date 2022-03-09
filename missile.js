@@ -10,7 +10,7 @@ function createMissile() {
    
 
    function dropMissile() {
-      if(y > 15) {
+      if(y > -70) {
          y--;
          missile.style.bottom = y + 'px';
       } 

@@ -98,10 +98,7 @@ function collision() {
         updateHealth()
     }
         
-    else {
-        // no collision
-        console.log('no collision detected')
-    }
+
 }
 
 function updateScore() {
@@ -112,6 +109,6 @@ function updateScore() {
 }
 
 function updateHealth() {
-    totalHealth--
-    health.innterText = totalHealth
+    totalHealth -=0.09
+    health.innerText = totalHealth
 }

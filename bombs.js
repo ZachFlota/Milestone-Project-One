@@ -10,7 +10,7 @@ function createBomb() {
    
 
    function dropBomb() {
-      if(y > 15) {
+      if(y > -60) {
          y--;
          bomb.style.bottom = y + 'px';
       } 
