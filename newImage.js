@@ -7,4 +7,3 @@ function newImage(url){
     return object
 }
 
-

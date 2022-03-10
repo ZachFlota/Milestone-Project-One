@@ -15,6 +15,13 @@ main {
     border-radius: 5px;
 
 }
+
+#play {
+    position: fixed;
+    top: 20px;
+    left: 700px;
+}
+
 #scoreboard {
     color: white;
     font-family: fantasy;
