@@ -1,7 +1,7 @@
 main {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 #background {
@@ -17,14 +17,15 @@ main {
 }
 #scoreboard {
     color: white;
-    
+    font-family: fantasy;
+    font-size: 20px;
     position: fixed;
-    width: 200px;
+    width: 250px;
     height: 80px;
-    border-style: groove;
-    border-color: purple;
-    border-width: 6px;
-    border-radius: 5px;
+    left: 30px;
+    top: 20px;
+    
+ 
      
 }
 
